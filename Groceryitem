@@ -1,0 +1,43 @@
+/**
+ * Make name, cost and aisle number varibles
+ * 
+ * @Steven Thompson
+ * 
+ */
+public class GroceryItem
+{
+    
+    private String Name;
+    private double Cost;
+    private int aisleNum;
+    //make them exist
+    public GroceryItem(String startname, double startcost, int startaislenum) {
+        Name = startname;
+        Cost = startcost;
+        aisleNum = startaislenum;
+        
+    }
+    
+    public String getName()
+    {
+        return Name;
+    }
+    public double getCost()
+    {
+        return Cost;
+    }
+    public int getAisle()
+    {
+        return aisleNum;
+    }
+    //trying to change cost
+   public double changeCost(double newcost)
+   {
+     double changeCost;
+       Cost = newcost;
+     return 0;
+    }
+   
+    }
+
+
